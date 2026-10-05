@@ -1,40 +1,4 @@
-theia@theia-anthonynich1:/home/project$ curl -s https://api.github.com/repos/Ant0117-dev/mcino-Introduction-to-Git-and-GitHub | jq -r '.parent.clone_url'
+theia@theia-anthonynich1:/home/project$ curl -s https://api.github.com/repos/Ant0117-dev/mcino-Introduction-to-Git-and-GitHub | jq -r '.
+parent.clone_url'
+
 https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub.git
-theia@theia-anthonynich1:/home/project$ curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/<Pull-Request-ID> | jq -r '.head.repo.clone_url'
-bash: syntax error near unexpected token `|'
-theia@theia-anthonynich1:/home/project$ curl -s "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/PULL_REQUEST_ID" | jq -r '.head.repo.clone_url'
-null
-theia@theia-anthonynich1:/home/project$ curl -s "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/5" | jq -r '.head.repo.clone_url'
-null
-theia@theia-anthonynich1:/home/project$ curl -s "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls" | jq '.[].number'
-12144
-12143
-10637
-10328
-10326
-9956
-9955
-9954
-9952
-9951
-9949
-9948
-9945
-9944
-9943
-9602
-9441
-9134
-9045
-8597
-8296
-7985
-7982
-7981
-7979
-7428
-6383
-6382
-6377
-6376
-theia@theia-anthonynich1:/home/project$ 
